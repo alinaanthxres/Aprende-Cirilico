@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <title>Aprende cirílico!</title>
+
+    <meta name="description" content="" />
+    <link rel="apple-touch-icon" href="./assets/img/icono.jpg" />
+    <link rel="icon" href="./assets/img/icono.jpg" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link href="./assets/css/main.css.map" />
+
+    <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+    <script src="./app/main.js"></script>
+</head>
+
+<body>
+    <div class="resetPage resetPageUnvisible">
+        <h1>Aprende Cirílico</h1>
+        <h2>Поздравления! Has conseguido</h2>
+        <div class="counterFinal">
+            <p>
+                <span class="pointsFinal" style="color:rgb(0, 228, 0)">A</span>
+                /
+                <span class="errorsFinal" style="color:red">B</span>
+            </p>
+        </div>
+        <input class="button" type="button" value="Volver a empezar" id="reset" >
+
+    </div>
+    
+    <div class="header">
+        <input type="button" class="info" value="i">
+        <div class="level">
+            <h1>Level <span id="level_number"></span>:</h1>
+            <h2 id="level_title"></h2>
+        </div>
+        <div class="counter">
+            <p>
+                <span class="points" style="color:rgb(0, 228, 0)">A</span>
+                /
+                <span class="errors" style="color:red">B</span>
+            </p>
+        </div>
+    </div>
+    <div class="content">
+        <aside class="infoMenu">
+            <ul>
+                <li>A a <em>a</em></li>
+                <li>Б б <em>/be</em></li>
+                <li>B в <em>/ve</em></li>
+                <li>Г г <em>/gue</em></li>
+                <li>Д д <em>/de</em></li>
+                <li>E e <em>/ye</em></li>
+                <li>Ё ё <em>/yo</em></li>
+                <li>Ж ж <em>/zhe</em></li>
+                <li>З з <em>/ze</em></li>
+                <li>И и <em>/i</em></li>
+                <li>Й й <em>/iy (breve)</em></li>
+                <li>К к <em>/ka</em></li>
+                <li>Л л <em>/el</em></li>
+                <li>M м <em>/em</em></li>
+                <li>H н <em>/en</em></li>
+                <li>O o <em>/o</em></li>
+                <li>П п <em>/pe</em></li>
+                <li>P p <em>/er</em></li>
+                <li>C c <em>/es</em></li>
+                <li>T т <em>/te</em></li>
+
+                <li>У у <em>/u</em></li>
+                <li>Ф ф <em>/ef</em></li>
+                <li>X x <em>/ja</em></li>
+                <li>Ц ц <em>/tse</em></li>
+                <li>Ч ч <em>/che</em></li>
+                <li>Ш ш <em>/sha</em></li>
+                <li>Щ щ <em>/scha</em></li>
+                <li>Ч ч <em>/che</em></li>
+                <li>Ъ ъ <em>signo fuerte</em></li>
+                <li>Ы ы <em>/eie</em></li>
+                <li>Ь ь <em>signo suave</em></li>
+                <li>Э э <em>/e</em></li>
+                <li>Ю ю <em>/yu</em></li>
+                <li>Я я <em>/ya</em></li>
+            </ul>
+
+        </aside>
+
+        <div class="game">
+            <div class="options">
+                <ul class="ulOptions">
+                    <li class="draggable">a</li>
+                    <li class="draggable">te</li>
+                    <li class="draggable">ka</li>
+                    <li class="draggable">o</li>
+                    <li class="draggable">eme</li>
+                </ul>
+            </div>
+            <div class="answers">
+                <ul class="ulAnswers">
+                    <li class="answer">
+                        <h1 class="letra" style="color: rgb(123, 181, 247)">Aa</h1>
+                        <div class="dropzone dropzone_01"></div>
+                    </li>
+                    <li class="answer">
+                        <h1 class="letra" style="color: rgb(238, 97, 54)">Tт</h1>
+                        <div class="dropzone dropzone_02"></div>
+                    </li>
+                    <li class="answer">
+                        <h1 class="letra" style="color: rgb(66, 240, 110)">Кк</h1>
+                        <div class="dropzone dropzone_03"></div>
+                    </li>
+                    <li class="answer">
+                        <h1 class="letra" style="color: rgb(248, 203, 56)">Oo</h1>
+                        <div class="dropzone dropzone_04"></div>
+                    </li>
+
+                    <li class="answer">
+                        <h1 class="letra" style="color: rgb(179, 101, 243)"></h1>
+                        <div class="dropzone dropzone_05"></div>
+                    </li>
+                </ul>
+            </div>
+            <input class="button" type="button" value="next" id="next">
+            <input class="button" type="button" value="Start Again" id="startAgain">
+
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
